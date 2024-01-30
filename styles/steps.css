@@ -1,0 +1,210 @@
+.colors-title {
+  font-family: Poppins;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 32px;
+  letter-spacing: 0em;
+  margin-top: 12px;
+}
+.textarea {
+  width: 100%;
+  max-width: 515px;
+  border-radius: 5px;
+  border: 1px solid #cccccc;
+  padding: 12px;
+  font-family: "Poppins", sans-serif;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.primary-btn {
+  height: 49px;
+  width: 137px;
+  border-radius: 5px;
+  padding: 8px, 0px, 8px, 0px;
+  background-color: #5022b8 !important;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 32px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #ffffff;
+}
+.primary-btn:hover {
+  background-color: #6b42ca !important;
+}
+.primary-btn-red {
+  height: 49px;
+  width: 137px;
+  border-radius: 5px;
+  padding: 8px, 0px, 8px, 0px;
+  background-color: #f20808 !important;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 32px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #ffffff;
+}
+.primary-btn-w-full {
+  height: 49px;
+  width: 100% !important;
+  border-radius: 5px;
+  padding: 8px, 0px, 8px, 0px;
+  background-color: #5022b8 !important;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 32px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #ffffff;
+}
+.primary-btn-w-full:hover {
+  background-color: #6b42ca !important;
+}
+.primary-btn1 {
+  height: 40px;
+  border-radius: 5px;
+  background: #5022b8 !important;
+  font-family: Poppins;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 32px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #ffffff;
+}
+.primary-btn1:hover {
+  background: #6b42ca !important;
+}
+.primary-btn-borderless {
+  height: 40px;
+  border-radius: 5px;
+  background: #ffffff !important;
+  border: 2px solid #5022b8;
+  font-family: Poppins;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 32px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #5022b8;
+}
+.primary-btn-borderless:hover {
+  background: #5022b8 !important;
+  border: 2px solid #5022b8;
+  color: #ffffff;
+}
+
+.primary-btn-back {
+  height: 49px;
+  width: 137px;
+  border-radius: 5px;
+  padding: 8px 16px 8px 16px;
+  background: #ffffff;
+  border: 2px solid #5022b8;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 32px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #5022b8;
+}
+.hint {
+  font-family: Poppins;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.back {
+  color: #b1b1b1;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.MuiSlider-mark {
+  width: 10px !important;
+  height: 10px !important;
+  border-radius: 20px !important;
+  background-color: #cac4d8 !important;
+}
+.MuiSlider-markActive {
+  width: 10px !important;
+  height: 10px !important;
+  border-radius: 20px !important;
+  background-color: #5022b8 !important;
+}
+.MuiSlider-thumb {
+  background-color: #5022b8 !important;
+}
+.MuiSlider-rail {
+  background-color: #cac4d8 !important;
+}
+.MuiSlider-track {
+  background-color: #5022b8 !important;
+}
+
+.slider-text {
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 32px;
+  letter-spacing: 0em;
+}
+.select1 {
+  height: 42px;
+  width: 100%;
+  max-width: 515px;
+  border-radius: 5px;
+  border: 1px solid #cccccc;
+  padding-left: 12px;
+  font-family: "Poppins", sans-serif;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.step6-title {
+  font-family: Montserrat;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 61px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #404145;
+}
+.step6-description {
+  color: #404145;
+  font-family: Poppins;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 36px;
+  letter-spacing: 0em;
+  text-align: left;
+}

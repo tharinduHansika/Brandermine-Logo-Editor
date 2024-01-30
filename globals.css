@@ -1,0 +1,515 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body {
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+@layer components {
+  @font-face {
+    font-family: "Circular";
+    src: url("/fonts/CircularStd-Light.otf");
+  }
+  @font-face {
+    font-family: "CircularStd-Medium";
+    src: url("/fonts/CircularStd-Medium.otf");
+  }
+  @font-face {
+    font-family: "CircularStd-Bold";
+    src: url("/fonts/CircularStd-Bold.otf");
+  }
+  @font-face {
+    font-family: "CircularStd-Book";
+    src: url("/fonts/CircularStd-Book.otf");
+  }
+
+  .sliderimg {
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+  }
+
+  .alice-carousel__dots-item {
+    width: 18px;
+    height: 18px;
+    cursor: pointer;
+    border-radius: 50%;
+    background-color: #e0e4fb;
+  }
+
+  .blue-container-text1 {
+    color: #ffffff;
+    font-family: Poppins;
+    font-size: 35px;
+    font-weight: 600;
+    line-height: 48px;
+    letter-spacing: 0em;
+  }
+  .blue-container-text2 {
+    color: #ffffff;
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 32px;
+    letter-spacing: 0em;
+  }
+  .industry-card-title {
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 32px;
+    letter-spacing: 0em;
+    text-align: left;
+  }
+  .logo-industry-title {
+    color: #1a1d5a !important;
+    font-family: Montserrat;
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 61px;
+    letter-spacing: 0em;
+    text-align: center;
+  }
+  .logo-industry-title-white {
+    color: #ffffff !important;
+    font-family: Montserrat;
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 61px;
+    letter-spacing: 0em;
+    text-align: center;
+  }
+  .logo-industry-title2 {
+    color: #1a1d5a !important;
+    font-family: Poppins;
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 61px;
+    letter-spacing: 0em;
+  }
+
+  .logo-industry-description {
+    color: #4b4a4a;
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0em;
+  }
+  .logo-industry-text {
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 32px;
+    letter-spacing: 0em;
+  }
+  .industry-labels {
+    font-size: 14px;
+    font-family: Poppins;
+  }
+  .popular-logos-text {
+    color: #555555;
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 36px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-bottom: 8px;
+  }
+  .help-center-title {
+    color: #ffffff;
+    font-family: CircularStd-Bold;
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 61px;
+    letter-spacing: 0em;
+    text-align: left;
+  }
+  .help-center-title2 {
+    font-family: CircularStd-Bold;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 61px;
+    letter-spacing: 0em;
+  }
+  .help-center-caption {
+    font-family: Circular;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 32px;
+    letter-spacing: 1px;
+  }
+  .help-center-title3 {
+    color: #ffffff;
+    font-family: CircularStd-Bold;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 36px;
+    letter-spacing: 0em;
+    text-align: center;
+  }
+  .help-center-title4 {
+    color: #404145;
+    font-family: CircularStd-Bold;
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 61px;
+    letter-spacing: 0em;
+    text-align: left;
+  }
+  .help-center-title5 {
+    color: #404145;
+    font-family: Poppins;
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 61px;
+    letter-spacing: 0em;
+    text-align: center;
+  }
+  .help-center-text {
+    color: #404145;
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    letter-spacing: 0em;
+    text-align: center;
+  }
+  .help-center-text2 {
+    font-family: CircularStd-Bold;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 61px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #5022b8;
+  }
+  .help-input {
+    height: 59px;
+    width: 100%;
+    border-radius: 5px !important;
+    padding-left: 12px;
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 36px;
+    letter-spacing: 0em;
+    text-align: left;
+  }
+  .help-textare {
+    width: 100%;
+    border-radius: 5px !important;
+    padding-left: 12px;
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 36px;
+    letter-spacing: 0em;
+    text-align: left;
+  }
+  .help-hint {
+    color: #404145;
+    font-family: Circular;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    letter-spacing: 0.8px;
+  }
+  .about-title {
+    color: #404145;
+    font-family: CircularStd-Bold;
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 48px;
+    letter-spacing: 0em;
+  }
+  .about-text {
+    color: #404145;
+    font-family: Circular;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: left;
+  }
+  .reviews-text {
+    color: #404145;
+    font-family: Circular;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 36px;
+    letter-spacing: 0.8px;
+  }
+  .branding-title {
+    color: #404145;
+    font-family: Poppins;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 36px;
+    letter-spacing: 0em;
+    text-align: center;
+  }
+  .branding-title2 {
+    color: #404145;
+    font-family: CircularStd-Book;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 36px;
+    letter-spacing: 0em;
+    text-align: center;
+  }
+  .branding-text {
+    color: #000000;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 32px;
+    letter-spacing: 0em;
+    text-align: center;
+    margin-top: 12px;
+  }
+  .sidebar-text {
+    color: #ffffff;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+  }
+  .chat-input {
+    height: 45px;
+    width: 100%;
+    border-radius: 5px !important;
+    border: none;
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 17px;
+    letter-spacing: 0em;
+    text-align: left;
+  }
+  .chat-text {
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
+  }
+  .chat-time {
+    color: #b0b6c3 !important;
+    font-family: Poppins;
+    font-size: 10px;
+    font-weight: 500;
+    line-height: 12px;
+    letter-spacing: 0em;
+    text-align: left;
+  }
+  .settings-avatar {
+    color: #ffffff;
+    font-family: Poppins;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 72px;
+    letter-spacing: 0em;
+    text-align: center;
+  }
+  .settings-name {
+    font-family: Poppins;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0.5333333611488342px;
+    text-align: left;
+  }
+  .settings-name2 {
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0.30000001192092896px;
+    text-align: left;
+  }
+  .settings-title {
+    color: #5022b8;
+    font-family: Poppins;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0.30000001192092896px;
+    text-align: left;
+  }
+  .navbar-name {
+    font-family: Poppins;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0em;
+  }
+  .navbar-name2 {
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 30px;
+    letter-spacing: 0em;
+  }
+  .navbar-text {
+    color: #5022b8;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+  }
+  .table-header {
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 27px;
+    letter-spacing: 0em;
+    text-align: left;
+  }
+  .table-text1 {
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0em;
+  }
+  .table-text2 {
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0em;
+  }
+  .order-btn {
+    height: 49px;
+    width: 137px;
+    border-radius: 5px;
+    padding: 8px, 0px, 8px, 0px;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 32px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #ffffff;
+  }
+  .step5-text {
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+  }
+  .industry-logo-title {
+    font-family: CircularStd-Bold;
+    font-size: 44px;
+    font-weight: 500;
+    line-height: 52px;
+    letter-spacing: 0em;
+    color: #333333 !important;
+  }
+  .industry-logo-caption {
+    font-family: CircularStd-Book;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0.7px;
+    color: #404145;
+  }
+  .industry-logo-text {
+    font-family: Circular;
+    font-size: 20px;
+    line-height: 32px;
+    letter-spacing: 0.7px;
+    font-weight: 300;
+    color: #24273b;
+  }
+  .industry-logo-title2 {
+    color: #333333 !important;
+    font-family: CircularStd-Bold;
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 61px;
+    letter-spacing: 0em;
+    text-align: center;
+  }
+  .search-input1 {
+    font-family: "Circular", sans-serif;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 600;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    padding-left: 66px;
+    height: 56px;
+    border: 2px solid #cccccc;
+  }
+
+  .lable2 {
+    font-family: "Circular", sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 1px;
+    margin-bottom: 8px;
+    text-align: left;
+    color: #404145;
+  }
+
+  .input2 {
+    height: 42px;
+    width: 100%;
+    max-width: 515px;
+    border-radius: 5px !important;
+    border: 1px solid #cccccc !important;
+    padding-left: 12px;
+    font-family: "Circular", sans-serif;
+    font-size: 13px !important;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
+  }
+  .input2:focus {
+    border: 1px solid #5022b8 !important;
+  }
+
+  .logo-industry-title3 {
+    color: #000000 !important;
+    font-family: "CircularStd-Bold", sans-serif;
+    font-size: 26px;
+    line-height: 36px;
+    letter-spacing: 0em;
+  }
+
+  .blog-post-title {
+    font-family: "CircularStd-Bold", sans-serif;
+    letter-spacing: -3px;
+    font-weight: 500;
+    line-height: 64px;
+    text-align: left;
+  }
+
+  .blog-post-subtitle {
+    font-family: "CircularStd-Bold", sans-serif;
+    font-size: 48px;
+    letter-spacing: -3px;
+    font-weight: 500;
+    line-height: 52px;
+    text-align: left;
+  }
+}

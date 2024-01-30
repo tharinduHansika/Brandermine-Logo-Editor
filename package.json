@@ -1,0 +1,47 @@
+{
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "export": "next export"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.8.2",
+    "@emotion/styled": "^11.8.1",
+    "@heroicons/react": "^1.0.4",
+    "@hookstate/core": "^4.0.0-rc21",
+    "@hookstate/devtools": "^4.0.0",
+    "@hookstate/identifiable": "^4.0.0",
+    "@hookstate/localstored": "^4.0.0",
+    "@mui/material": "^5.5.2",
+    "@reduxjs/toolkit": "^1.9.1",
+    "@tailwindcss/forms": "^0.5.0",
+    "axios": "^1.1.2",
+    "firebase": "^9.12.1",
+    "micro": "^9.4.1",
+    "next": "latest",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-firebase-hooks": "^5.0.3",
+    "react-grid-carousel": "^1.0.1",
+    "react-iframe": "^1.8.4",
+    "react-inlinesvg": "1.0.0",
+    "react-native-simple-radio-button": "^2.7.4",
+    "react-redux": "^8.0.5",
+    "react-responsive-modal": "^6.1.0",
+    "react-slick": "^0.28.1",
+    "react-toastify": "^9.1.1",
+    "react-use": "^17.4.0",
+    "redux-persist": "^6.0.0",
+    "slick-carousel": "^1.8.1",
+    "stripe": "^10.15.0"
+  },
+  "devDependencies": {
+    "@redux-devtools/core": "^3.13.1",
+    "autoprefixer": "^10.4.4",
+    "babel-plugin-inline-react-svg": "^2.0.1",
+    "postcss": "^8.4.12",
+    "tailwindcss": "^3.0.23"
+  }
+}
