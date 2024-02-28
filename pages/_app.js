@@ -3,6 +3,11 @@ import "../styles/design_tokens.css";
 import "../styles/blog.css";
 import "../styles/button.css";
 import "../styles/steps.css";
+import "../styles/logo-maker-styles/header.css"
+import "../styles/logo-maker-styles/mainPage.css"
+import "../styles/logo-maker-styles/customScrollBar.css"
+import "../styles/logo-maker-styles/optionlist.css"
+import "../styles/logo-maker-styles/range.css"
 import "../globals.css";
 import { authState, onInit } from "../store/authstore";
 import { useEffect } from "react";

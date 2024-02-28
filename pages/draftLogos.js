@@ -35,7 +35,7 @@ function draftLogos() {
       <div className="flex flex-row justify-between items-start">
         <div className="bg-[#5022B8] max-w-[350px] lg:flex lg:flex-col lg:items-start lg:justify-between lg:flex-1 h-[calc(100vh-63px)] p-8 hidden overflow-y-hidden">
           <div className="flex flex-1 flex-col w-full">
-            <Link href="/chat">
+            <Link href="/chat" legacyBehavior>
               <div className="cursor-pointer my-1 hover:bg-[#7551C7] rounded-[50px] flex flex-1 flex-row justify-between items-center max-h-[67px] w-full">
                 <div className="w-[67px] h-[67px] flex items-center justify-center mr-4">
                   <img src="/images/sidebar/1.svg" className="w-6" />
@@ -57,7 +57,7 @@ function draftLogos() {
                 <p className="sidebar-text text-left">Orders</p>
               </div>
             </div> */}
-            <Link href="/orders">
+            <Link href="/orders" legacyBehavior>
               <div className="cursor-pointer my-1 hover:bg-[#7551C7] rounded-[50px] flex flex-1 flex-row justify-between items-center max-h-[67px] w-full">
                 <div className="w-[67px] h-[67px] flex items-center justify-center mr-4">
                   <img src="/images/sidebar/2.svg" className="w-6" />
@@ -70,7 +70,7 @@ function draftLogos() {
               </div>
             </Link>
 
-            <Link href="/favouriteLogos">
+            <Link href="/favouriteLogos" legacyBehavior>
               <div className="cursor-pointer my-1 hover:bg-[#7551C7] rounded-[50px] flex flex-1 flex-row justify-between items-center max-h-[67px] w-full">
                 <div className="w-[67px] h-[67px] flex items-center justify-center mr-4">
                   <img src="/images/sidebar/3.svg" className="w-6" />
@@ -83,7 +83,7 @@ function draftLogos() {
               </div>
             </Link>
 
-            <Link href="/draftLogos">
+            <Link href="/draftLogos" legacyBehavior>
               <div className="cursor-pointer my-1 bg-[#7551C7] flex rounded-[50px] flex-1 flex-row justify-between items-center max-h-[67px] w-full">
                 <div className="bg-white rounded-[50px] w-[67px] h-[67px] flex items-center justify-center mr-4">
                   <img src="/images/sidebar/4h.svg" className="w-6" />
@@ -97,7 +97,7 @@ function draftLogos() {
           </div>
 
           <div className="flex flex-1 flex-col items-starts justify-end w-full">
-            <Link href="/settings">
+            <Link href="/settings" legacyBehavior>
               <div className="cursor-pointer my-1 hover:bg-[#7551C7] rounded-[50px] flex flex-1 flex-row justify-between items-center max-h-[67px] w-full">
                 <div className="w-[67px] h-[67px] flex items-center justify-center mr-4">
                   <img src="/images/sidebar/5.svg" className="w-6" />
@@ -133,7 +133,7 @@ function draftLogos() {
             <div className="grid grid-cols-12 gap-4">
               <div className="col-span-12 lg:col-span-3 md:col-span-6 sm:col-span-6">
                 <div className="relative flex justify-center group">
-                  <Link href="/collecting-data-step-4">
+                  <Link href="/collecting-data-step-4" legacyBehavior>
                     <img
                       src="/images/blog/1.png"
                       className="w-full aspect-[145/100] shadow-lg rounded-lg cursor-pointer relative group-hover:opacity-[0.5]"
@@ -212,7 +212,7 @@ function draftLogos() {
 
               <div className="col-span-12 lg:col-span-3 md:col-span-6 sm:col-span-6">
                 <div className="relative flex justify-center group">
-                  <Link href="/collecting-data-step-4">
+                  <Link href="/collecting-data-step-4" legacyBehavior>
                     <img
                       src="/images/blog/1.png"
                       className="w-full aspect-[145/100] shadow-lg rounded-lg cursor-pointer relative group-hover:opacity-[0.5]"
@@ -291,7 +291,7 @@ function draftLogos() {
 
               <div className="col-span-12 lg:col-span-3 md:col-span-6 sm:col-span-6">
                 <div className="relative flex justify-center group">
-                  <Link href="/collecting-data-step-4">
+                  <Link href="/collecting-data-step-4" legacyBehavior>
                     <img
                       src="/images/blog/1.png"
                       className="w-full aspect-[145/100] shadow-lg rounded-lg cursor-pointer relative group-hover:opacity-[0.5]"
@@ -370,7 +370,7 @@ function draftLogos() {
 
               <div className="col-span-12 lg:col-span-3 md:col-span-6 sm:col-span-6">
                 <div className="relative flex justify-center group">
-                  <Link href="/collecting-data-step-4">
+                  <Link href="/collecting-data-step-4" legacyBehavior>
                     <img
                       src="/images/blog/1.png"
                       className="w-full aspect-[145/100] shadow-lg rounded-lg cursor-pointer relative group-hover:opacity-[0.5]"

@@ -70,7 +70,7 @@ const Logomakingstep02 = () => {
           </div>
 
           <div className="mt-12 flex flex-row items-center justify-between">
-            <Link href="/collecting-data">
+            <Link href="/collecting-data" legacyBehavior>
               <button
                 type="submit"
                 className="primary-btn-back float-right mt-6 sm:mt-0 hover:bg-[#5022b8] hover:text-white"
@@ -82,7 +82,7 @@ const Logomakingstep02 = () => {
               </p> */}
             </Link>
 
-            <Link href="/collecting-data-step-3">
+            <Link href="/collecting-data-step-3" legacyBehavior>
               <button
                 type="submit"
                 className="primary-btn float-right mt-6 sm:mt-0 "

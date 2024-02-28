@@ -67,7 +67,7 @@ const Logomakingstep01 = () => {
             />
           </div>
 
-          <Link href="/collecting-data-step-2">
+          <Link href="/collecting-data-step-2" legacyBehavior>
             <button
               type="submit"
               className="primary-btn float-right mt-6 sm:mt-12"

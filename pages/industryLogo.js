@@ -96,7 +96,7 @@ export default function industryLogo() {
                 />
 
                 <div>
-                  <Link href="/collecting-data">
+                  <Link href="/collecting-data" legacyBehavior>
                     <button
                       type="submit"
                       className="search-btn1 text-white rounded w-full sm:min-w-[169px] px-4 my-4 sm:my-0 ml-0 sm:ml-4 flex items-center justify-center"
@@ -301,7 +301,7 @@ export default function industryLogo() {
                 />
 
                 <div>
-                  <Link href="/collecting-data">
+                  <Link href="/collecting-data" legacyBehavior>
                     <button
                       type="submit"
                       className="search-btn1 text-white rounded w-full sm:w-[169px] my-4 sm:my-0 ml-0 sm:ml-4"

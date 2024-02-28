@@ -139,7 +139,7 @@ const collecting_data_step_7 = () => {
                 </div>
 
                 <div className="mt-12">
-                  <Link href="/step1">
+                  <Link href="/step1" legacyBehavior>
                     <button className="border-[#B1B1B1] border rounded px-4 py-2 w-full package-button hover:bg-[#11D86C] hover:text-white">
                       Select
                     </button>
@@ -200,7 +200,7 @@ const collecting_data_step_7 = () => {
                 </div>
 
                 <div className="mt-12">
-                  <Link href="/step1">
+                  <Link href="/step1" legacyBehavior>
                     <button className="border-[#B1B1B1] border-1 rounded px-4 py-2 w-full package-button bg-[#5022B8] text-white hover:bg-[#6b42ca]">
                       Select
                     </button>
@@ -269,7 +269,7 @@ const collecting_data_step_7 = () => {
                 </div>
 
                 <div className="mt-12">
-                  <Link href="/step1">
+                  <Link href="/step1" legacyBehavior>
                     <button className="border-[#B1B1B1] border rounded px-4 py-2 w-full package-button hover:bg-[#F77700] hover:text-white">
                       Select
                     </button>

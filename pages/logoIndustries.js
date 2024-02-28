@@ -118,7 +118,7 @@ export default function logoIndustries() {
 
           <div className="grid grid-cols-12 gap-4 mt-12">
             <div className="col-span-6 lg:col-span-2 sm:col-span-3 transition ease-in-out delay-40 hover:translate-y-1 duration-200 cursor-pointer">
-              <Link href="/industryLogo">
+              <Link href="/industryLogo" legacyBehavior>
                 <p className="logo-industry-text px-4 py-3 bg-white rounded truncate">
                   Agriculturedfgdfgdfdfdfgdfg
                 </p>

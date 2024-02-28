@@ -1,8 +1,11 @@
 const { default: axios } = require("axios");
 const { authState, errorState } = require("../store/authstore");
 
-const BASE_URL = "https://api.brandermine.com";
+//const BASE_URL = "https://api.brandermine.com";
 // const BASE_URL = "http://localhost:9000";
+
+//const BASE_URL = "https://branderminedev.infozenit.com/api"
+const BASE_URL = "https://core.brandermine.com/api"
 
 export async function httpGet(path, auth = false, token = null) {
   try {

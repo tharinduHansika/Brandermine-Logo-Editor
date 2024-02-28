@@ -41,7 +41,7 @@ function step1() {
             </h3>
           </div>
           <div className="col-span-12 md:col-span-6 text-left skip md:text-right ">
-            <Link href="/step2">
+            <Link href="/step2" legacyBehavior>
               <p className="no-underline hover:text-[#5022b8] cursor-pointer">
                 SKIP
               </p>
@@ -122,7 +122,7 @@ function step1() {
           </div>
 
           <div className="col-span-12 mt-6">
-            <Link href="/step2">
+            <Link href="/step2" legacyBehavior>
               <button type="submit" className="primary-btn  float-right">
                 Next
               </button>

@@ -11,7 +11,7 @@ function IndustryLogo({ link }) {
         />
 
         <div className="absolute top-[calc(50%-24px)] opacity-[0] group-hover:opacity-[1] flex items-center bg-white p-2 shadow-xl rounded-md">
-          <Link href="/collecting-data-step-4">
+          <Link href="/collecting-data-step-4" legacyBehavior>
             <button type="submit" className="primary-btn mr-2">
               Edit
             </button>

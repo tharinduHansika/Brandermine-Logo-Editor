@@ -111,7 +111,7 @@ const collecting_data_step_6 = () => {
                 </div>
 
                 <div className="mt-12">
-                  <Link href="/payment">
+                  <Link href="/payment" legacyBehavior>
                     <button className="border-[#B1B1B1] border rounded px-4 py-2 w-full package-button hover:bg-[#11D86C] hover:text-white">
                       Select
                     </button>
@@ -172,7 +172,7 @@ const collecting_data_step_6 = () => {
                 </div>
 
                 <div className="mt-12">
-                  <Link href="/payment">
+                  <Link href="/payment" legacyBehavior>
                     <button className="border-[#B1B1B1] border-1 rounded px-4 py-2 w-full package-button bg-[#5022B8] hover:bg-[#6b42ca] text-white">
                       Select
                     </button>
@@ -241,7 +241,7 @@ const collecting_data_step_6 = () => {
                 </div>
 
                 <div className="mt-12">
-                  <Link href="/payment">
+                  <Link href="/payment" legacyBehavior>
                     <button className="border-[#B1B1B1] border rounded px-4 py-2 w-full package-button hover:bg-[#F77700] hover:text-white">
                       Select
                     </button>

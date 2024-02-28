@@ -1,0 +1,9 @@
+.header-container{
+    height: 60px;
+    max-width: 300vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 8px;
+    box-shadow: 0px 3px 16px -10px rgba(0, 0, 0, 0.45);
+}

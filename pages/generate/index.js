@@ -90,7 +90,7 @@ const GenerateSearchOne = () => {
 
           <Link
             href={`/generate/industry?brand_name=${query.brand_name}&slogan=${query.slogan}&industry=${query.industry}`}
-          >
+            legacyBehavior>
             <button
               type="submit"
               className="primary-btn float-right mt-6 sm:mt-12"

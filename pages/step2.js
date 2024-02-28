@@ -41,7 +41,7 @@ function step2() {
             </h3>
           </div>
           <div className="col-span-12 md:col-span-6 text-left skip md:text-right">
-            <Link href="/step3">
+            <Link href="/step3" legacyBehavior>
               <p className="no-underline hover:text-[#5022b8] cursor-pointer">
                 SKIP
               </p>
@@ -188,7 +188,7 @@ function step2() {
           </div>
 
           <div className="mt-12 flex flex-row items-center justify-between">
-            <Link href="/step1">
+            <Link href="/step1" legacyBehavior>
               <button
                 type="submit"
                 className="primary-btn-back float-right mt-6 sm:mt-0 hover:bg-[#5022b8] hover:text-white"
@@ -197,7 +197,7 @@ function step2() {
               </button>
             </Link>
 
-            <Link href="/step3">
+            <Link href="/step3" legacyBehavior>
               <button type="submit" className="primary-btn float-right">
                 Next
               </button>

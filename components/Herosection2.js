@@ -106,7 +106,8 @@ const Herosection2 = () => {
                 </span>
               </div>
               <div>
-                <Link href="/collecting-data">
+                {/* href="/collecting-data" */}
+                <Link href="/logo_maker/logomaker_main" legacyBehavior>
                   <button
                     type="submit"
                     className="search-btn text-white rounded w-full sm:w-[169px] my-2 sm:my-0 ml-0 sm:ml-4"

@@ -22,7 +22,7 @@ const Homecontentsection = () => {
             choosing from thousands of templates, color combination and
             detailing discussing with our design team.
           </p>
-          <Link href={'/generate'}>
+          <Link href={'/generate'} legacyBehavior>
 
             <button class="btn-sm-primary hover:bg-[#6b42ca]">Get Started</button>
           </Link>
@@ -37,7 +37,7 @@ const Homecontentsection = () => {
           <p className="card-description py-2 mb-4 text-center sm:text-left">
             Bring your imagination to reality from scratch with the world's most outstanding custom logo maker website. Get connected with our top class designers, in house brand building tools to set up and launch your brand.
           </p>
-          <Link href={'/generate'}>
+          <Link href={'/generate'} legacyBehavior>
             <button class="btn-sm-danger hover:bg-[#f35353]">Get Started</button>
           </Link>
         </div>
@@ -59,7 +59,7 @@ const Homecontentsection = () => {
           <p className="card-description py-2 mb-4 text-center sm:text-left">
             You can now save time than before. Get connected to your audience and grow your brand recognition with your logo imprinted business cards, letter heads, social media templates and more.
           </p>
-          <Link href={'/generate'}>
+          <Link href={'/generate'} legacyBehavior>
             <button class="btn-sm-success hover:bg-[#6cc762]">Get Started</button>
           </Link>
         </div>
@@ -73,7 +73,7 @@ const Homecontentsection = () => {
           <p className="card-description py-2 mb-4 text-center sm:text-left">
             Your story is our success. Brandermine team is here to build your logo and launch your brand. We will help you reach your audience with more SEO friendly website
           </p>
-          <Link href={'/generate'}>
+          <Link href={'/generate'} legacyBehavior>
             <button class="btn-sm-info hover:bg-[#1cabfd]">Get Started</button>
           </Link>
         </div>

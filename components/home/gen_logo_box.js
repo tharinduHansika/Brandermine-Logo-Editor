@@ -21,7 +21,9 @@ export function GenerateLogoTextBox({ varient = 1 }) {
                 </span>
             </div>
             <div>
-                <Link href={`/generate?brand_name=${query.brand_name}&slogan=${query.slogan}&industry=${query.industry}`}>
+                <Link
+                    href={`/generate?brand_name=${query.brand_name}&slogan=${query.slogan}&industry=${query.industry}`}
+                    legacyBehavior>
                     <button
                         type="submit"
                         className="search-btn text-white rounded w-full sm:w-[169px] my-2 sm:my-0 ml-0 sm:ml-4"
@@ -30,7 +32,7 @@ export function GenerateLogoTextBox({ varient = 1 }) {
                     </button>
                 </Link>
             </div>
-        </>
+        </>;
     } else if (varient == 0) {
         return <>
             <input
@@ -40,7 +42,9 @@ export function GenerateLogoTextBox({ varient = 1 }) {
                 placeholder="Enter your logo name"
                 onChange={(e) => setQuery({ ...query, brand_name: e.target.value })}
             />
-            <Link href={`/generate?brand_name=${query.brand_name}&slogan=${query.slogan}&industry=${query.industry}`}>
+            <Link
+                href={`/generate?brand_name=${query.brand_name}&slogan=${query.slogan}&industry=${query.industry}`}
+                legacyBehavior>
                 <button
                     type="submit"
                     className="search-btn-white hover:text-white text-[#5022b8] rounded w-full sm:w-[169px] my-4 sm:my-0 ml-0 sm:ml-4"
@@ -48,21 +52,25 @@ export function GenerateLogoTextBox({ varient = 1 }) {
                     Get Started
                 </button>
             </Link>
-        </>
+        </>;
     } else if (varient == 2) {
-        return <div class="sm:flex justify-center block">
-            <input
-                type="text"
-                placeholder="Enter your logo name"
-                className="input-text-1 rounded border-2 border-[#CCCCCC] focus:border-[#5022b8] focus:ring-[#5022b8] focus:ring-1"
-                onChange={(e) => setQuery({ ...query, brand_name: e.target.value })}
-            />
-            <Link href={`/generate?brand_name=${query.brand_name}&slogan=${query.slogan}&industry=${query.industry}`}>
-                <button class="search-btn text-white rounded mt-4 sm:mt-0 w-full sm:w-[169px]">
-                    Get Started
-                </button>
-            </Link>
-        </div>
+        return (
+            <div class="sm:flex justify-center block">
+                <input
+                    type="text"
+                    placeholder="Enter your logo name"
+                    className="input-text-1 rounded border-2 border-[#CCCCCC] focus:border-[#5022b8] focus:ring-[#5022b8] focus:ring-1"
+                    onChange={(e) => setQuery({ ...query, brand_name: e.target.value })}
+                />
+                <Link
+                    href={`/generate?brand_name=${query.brand_name}&slogan=${query.slogan}&industry=${query.industry}`}
+                    legacyBehavior>
+                    <button class="search-btn text-white rounded mt-4 sm:mt-0 w-full sm:w-[169px]">
+                        Get Started
+                    </button>
+                </Link>
+            </div>
+        );
     } else if (varient == 3) {
         return <><input
             type="text"
@@ -72,7 +80,9 @@ export function GenerateLogoTextBox({ varient = 1 }) {
             onChange={(e) => setQuery({ ...query, brand_name: e.target.value })}
 
         />
-            <Link href={`/generate?brand_name=${query.brand_name}&slogan=${query.slogan}&industry=${query.industry}`}>
+            <Link
+                href={`/generate?brand_name=${query.brand_name}&slogan=${query.slogan}&industry=${query.industry}`}
+                legacyBehavior>
 
                 <button
                     type="submit"
@@ -81,6 +91,6 @@ export function GenerateLogoTextBox({ varient = 1 }) {
                     Get Start
                 </button>
             </Link>
-        </>
+        </>;
     }
 }

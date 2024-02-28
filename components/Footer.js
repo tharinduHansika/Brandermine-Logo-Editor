@@ -7,14 +7,14 @@ function Footer() {
       <div className="col-span-12 md:col-span-3 ">
         <div className="text-center md:text-left">
           <p className="footer-title mb-8">Products</p>
-          <Link href="/generate">
+          <Link href="/generate" legacyBehavior>
             <p className="footer-content mb-2 cursor-pointer">Logo Maker</p>
           </Link>
-          <Link href="/premium">
+          <Link href="/premium" legacyBehavior>
             <p className="footer-content mb-2 cursor-pointer">Custom Logo</p>
           </Link>
           <p className="footer-content mb-2">Web Development</p>
-          <Link href="/brandingKit">
+          <Link href="/brandingKit" legacyBehavior>
             <p className="footer-content mb-2 cursor-pointer">Brand Kit</p>
           </Link>
         </div>
@@ -32,13 +32,13 @@ function Footer() {
       <div className="col-span-12 md:col-span-3">
         <div className="text-center md:text-left">
           <p className="footer-title mb-8">Company</p>
-          <Link href="/aboutUs">
+          <Link href="/aboutUs" legacyBehavior>
             <p className="footer-content mb-2 cursor-pointer">About</p>
           </Link>
-          <Link href="/reviews">
+          <Link href="/reviews" legacyBehavior>
             <p className="footer-content mb-2 cursor-pointer">Reviews</p>
           </Link>
-          <Link href="/pricing">
+          <Link href="/pricing" legacyBehavior>
             <p className="footer-content mb-2 cursor-pointer">Pricing</p>
           </Link>
         </div>
@@ -47,10 +47,10 @@ function Footer() {
       <div className="col-span-12 md:col-span-3">
         <div className="text-center md:text-left">
           <p className="footer-title mb-8">Support</p>
-          <Link href="/helpCenter">
+          <Link href="/helpCenter" legacyBehavior>
             <p className="footer-content mb-2 cursor-pointer">Help Center</p>
           </Link>
-          <Link href="/contactUs">
+          <Link href="/contactUs" legacyBehavior>
             <p className="footer-content mb-2 cursor-pointer">Contact Us</p>
           </Link>
           <p className="footer-content mb-2">Support@brandermine.com</p>

@@ -169,7 +169,7 @@ function step4() {
           </div>
 
           <div className="mt-12 flex flex-row items-center justify-between">
-            <Link href="/step3">
+            <Link href="/step3" legacyBehavior>
               <button
                 type="submit"
                 className="primary-btn-back float-right hover:bg-[#5022b8] hover:text-white"
@@ -178,7 +178,7 @@ function step4() {
               </button>
             </Link>
 
-            <Link href="/step5">
+            <Link href="/step5" legacyBehavior>
               <button type="submit" className="primary-btn float-right">
                 Next
               </button>

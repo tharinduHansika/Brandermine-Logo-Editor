@@ -9,7 +9,7 @@ function DraftDashboard() {
             <div className="grid grid-cols-12 gap-4">
               <div className="col-span-12 lg:col-span-3 md:col-span-6 sm:col-span-6">
                 <div className="relative flex justify-center group">
-                  <Link href="/collecting-data-step-4">
+                  <Link href="/collecting-data-step-4" legacyBehavior>
                     <img
                       src="/images/blog/1.png"
                       className="w-full aspect-[145/100] shadow-lg rounded-lg cursor-pointer relative group-hover:opacity-[0.5]"
@@ -88,7 +88,7 @@ function DraftDashboard() {
 
               <div className="col-span-12 lg:col-span-3 md:col-span-6 sm:col-span-6">
                 <div className="relative flex justify-center group">
-                  <Link href="/collecting-data-step-4">
+                  <Link href="/collecting-data-step-4" legacyBehavior>
                     <img
                       src="/images/blog/1.png"
                       className="w-full aspect-[145/100] shadow-lg rounded-lg cursor-pointer relative group-hover:opacity-[0.5]"
@@ -167,7 +167,7 @@ function DraftDashboard() {
 
               <div className="col-span-12 lg:col-span-3 md:col-span-6 sm:col-span-6">
                 <div className="relative flex justify-center group">
-                  <Link href="/collecting-data-step-4">
+                  <Link href="/collecting-data-step-4" legacyBehavior>
                     <img
                       src="/images/blog/1.png"
                       className="w-full aspect-[145/100] shadow-lg rounded-lg cursor-pointer relative group-hover:opacity-[0.5]"
@@ -246,7 +246,7 @@ function DraftDashboard() {
 
               <div className="col-span-12 lg:col-span-3 md:col-span-6 sm:col-span-6">
                 <div className="relative flex justify-center group">
-                  <Link href="/collecting-data-step-4">
+                  <Link href="/collecting-data-step-4" legacyBehavior>
                     <img
                       src="/images/blog/1.png"
                       className="w-full aspect-[145/100] shadow-lg rounded-lg cursor-pointer relative group-hover:opacity-[0.5]"
@@ -325,7 +325,7 @@ function DraftDashboard() {
             </div>
           </div>
         </div>
-    </>
+    </>;
 }
 
 export default DraftDashboard;

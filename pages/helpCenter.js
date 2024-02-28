@@ -49,7 +49,7 @@ export default function helpCenter() {
         </div>
 
         <div className="grid grid-cols-12 my-12 gap-8">
-          <Link href="/helpCenter2">
+          <Link href="/helpCenter2" legacyBehavior>
             <div className="col-span-12 sm:col-span-3 text-center flex flex-col items-center justify-center border-[#E5E5E5] border rounded-lg py-8 transition ease-in-out delay-100 hover:translate-y-1 duration-200 cursor-pointer hover:shadow-md">
               <img src="/images/help/1.png" />
               <p className="help-center-caption mt-4">About branderMine</p>

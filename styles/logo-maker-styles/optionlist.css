@@ -1,0 +1,16 @@
+.item-select {
+    border: none;
+    width: 140x;
+    height: 40px;
+  }
+  
+  .item-select :focus {
+    outline: none !important;
+  }
+  
+  .focusNone:focus {
+    outline: none !important;
+    border-color: inherit;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+  }

@@ -13,10 +13,10 @@ export const Navbar3 = () => {
   return (
     <div className="">
       <nav className="navbar flex items-center flex-wrap bg-white-300 p-2 fixed top-0 flex-1 flex-grow z-30 w-full">
-        <Link href="/">
-          <a className="inline-flex items-center p-2 mr-4 ">
-            <Image src="/images/BranderMine logo.svg" width="165" height="31" />
-          </a>
+        <Link href="/" className="inline-flex items-center p-2 mr-4 ">
+
+          <Image src="/images/BranderMine logo.svg" width="165" height="31" />
+
         </Link>
 
         <button
@@ -45,7 +45,7 @@ export const Navbar3 = () => {
           }   w-full lg:inline-flex lg:flex-grow lg:w-auto`}
         >
           <div className="lg:inline-flex lg:flex-row lg:ml-auto lg:w-auto w-full lg:items-center items-start  flex flex-col lg:h-auto mt-6 lg:mt-0">
-            <Link href="/collecting-data-step-5">
+            <Link href="/collecting-data-step-5" legacyBehavior>
               <button
                 type="submit"
                 className="primary-btn-borderless mr-4 w-full lg:w-auto px-4 mt-4 sm:mt-0"

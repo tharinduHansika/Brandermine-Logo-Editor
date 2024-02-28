@@ -87,7 +87,7 @@ export default function popularLogos() {
 
           <div className='grid grid-cols-12 gap-4 mt-12'>
             <div className='col-span-6 transition duration-200 ease-in-out cursor-pointer lg:col-span-2 sm:col-span-3 delay-40 hover:translate-y-1'>
-              <Link href='/industryLogo'>
+              <Link href='/industryLogo' legacyBehavior>
                 <p className='px-4 py-3 truncate bg-white rounded logo-industry-text'>
                   Agriculturedfgdfgdfdfdfgdfg
                 </p>
